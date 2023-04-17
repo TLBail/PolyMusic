@@ -12,12 +12,20 @@ main {
   width: 980px;
   display: flex;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+@media only screen and (min-device-width: 980px) {
+  .submain {
+    width: 660px;
+  }
 }
 
 .submain {
-  width: 680px;
   padding-right: 1em;
 }
+
+
 
 h2 {
   font-size: 100%;
