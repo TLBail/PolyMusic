@@ -138,6 +138,7 @@ header a:visited {
 
 /* Sections / Aside */
 aside {
+  width: 260px;
   padding: 1em;
   margin-top: 1em;
   padding-right: 1em;
@@ -151,7 +152,7 @@ article {
 }
 
 .mainContainer {
-  padding: 40px 60px;
+  padding: 20px 30px;
 }
 
 .mainContainer h2 {
@@ -159,9 +160,34 @@ article {
   padding-bottom: 1em;
 }
 
-.pop-rock-artist {
-  margin: 1em;
+
+figure {
+  display: flex;
+  flex-flow: column;
+  padding: 2px;
+  margin: 0;
 }
+
+figure img {
+  width: 150px;
+  height: 150px;
+}
+
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+
+figcaption a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
 
 .pop-rock-artist img {
   width: 150px;
@@ -179,9 +205,13 @@ article {
 
 /* Footer */
 footer {
+  background-color: black;
+}
+
+footer article {
   width: 980px;
   margin: 0 auto;
-  background-color: black;
+
 }
 
 footer ul {
