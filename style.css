@@ -19,7 +19,18 @@ main {
   .submain {
     width: 660px;
   }
+
+  aside {
+    width: 260px;
+  }
 }
+
+@media only screen and (max-device-width: 980px) {
+  aside {
+    width: 100%;
+  }
+}
+
 
 .submain {
   padding-right: 1em;
@@ -146,7 +157,6 @@ header a:visited {
 
 /* Sections / Aside */
 aside {
-  width: 260px;
   padding: 1em;
   margin-top: 1em;
   padding-right: 1em;
