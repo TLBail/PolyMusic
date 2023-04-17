@@ -1,0 +1,294 @@
+/* Règles générales */
+body {
+  background-color: #f6f6f6;
+  min-width: 480px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  width: 980px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.submain {
+  width: 680px;
+  padding-right: 1em;
+}
+
+h2 {
+  font-size: 100%;
+  margin-bottom: 1em;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+p {
+  font-size: 80%;
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.5em;
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: white;
+  position: relative;
+  box-shadow: 0px 0px 20px #000000e0;
+
+}
+
+header div {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.title {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url(../images/poly-music.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.shearchBox {
+  background-color: black;
+  color: rgb(153, 153, 153);
+  border: 1px solid rgb(153, 153, 153);
+  padding: 10px;
+  width: 20%;
+
+}
+
+
+.shearchBox input {
+  border: none;
+  background-color: black;
+  color: rgb(153, 153, 153);
+}
+
+nav {
+  flex-grow: 1;
+}
+
+.pockRockReleaseSection {
+  border-bottom: 1px solid #dedede;
+  margin-top: 1em;
+  padding-bottom: 1em;
+}
+
+.pockRockReleaseSection p {
+  margin: 0;
+}
+
+.pockRockReleaseSection img {
+  width: 100px;
+  height: auto;
+}
+
+.pockRockReleaseSection .flexbox .pockRockReleaseSectionTextHolder {
+  margin-left: 10px;
+
+}
+
+.pockRockReleaseSectionTextHolder a {
+  text-decoration: none;
+  display: block;
+}
+
+.flexbox {
+  display: flex;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+header li {
+  display: inline-block;
+}
+
+.networks {
+  margin-left: 1em;
+
+}
+
+.prettyBackground {
+  background-color: white;
+  border: 1px solid #DFDFDF;
+
+}
+
+header a,
+header a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sections / Aside */
+aside {
+  padding: 1em;
+  margin-top: 1em;
+  padding-right: 1em;
+  height: fit-content;
+}
+
+
+/* Pop/Rock Artists Highlights */
+article {
+  margin-bottom: 1em;
+}
+
+.mainContainer {
+  padding: 40px 60px;
+}
+
+.mainContainer h2 {
+  font-weight: 800;
+  padding-bottom: 1em;
+}
+
+.pop-rock-artist {
+  margin: 1em;
+}
+
+.pop-rock-artist img {
+  width: 150px;
+}
+
+.pop-rock-artist .existence-period,
+.pop-rock-artist .description {
+  display: none;
+}
+
+.popRockTableElement {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  width: 980px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+footer ul {
+  display: block;
+  color: white;
+  padding: 1em;
+}
+
+footer ul li {
+  display: inline;
+  padding-right: 1em;
+  padding-left: 1em;
+
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+
+}
+
+footer p {
+  color: white;
+  padding: 1em;
+  padding-bottom: 4em;
+}
+
+table {
+  margin-top: 2em;
+  width: 100%;
+}
+
+table td,
+table th {
+  border-bottom: 1px solid #dbdbdb;
+  text-align: left;
+  padding: 5px;
+}
+
+
+.spotifyIcon:hover {
+  background-position: 0 -26px;
+}
+
+
+.spotifyIcon {
+  width: 32px;
+  height: 26px;
+  background-image: url(../images/icons.png);
+  display: inline-block;
+  background-position: 0 -52px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.facebookIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -70px;
+}
+
+.facebookIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -70px;
+}
+
+.twitterIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -30px;
+}
+
+.tumblerIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -125px;
+}
+
+.googlePlusIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -110px;
+}
+
+.rssIcon {
+  width: 14px;
+  height: 14px;
+  background-image: url(../images/social-header.png);
+  display: inline-block;
+  background-position: 0 -15px;
+}
+
+/* Mise en forme CSS additionnelle */
+
+/* Ajoutez d'autres styles pour les sections Pop/Rock Artists Highlights, liens, tableaux et albums */
+
+/* Bonus */
+/* Ajoutez les styles pour l'insertion de contenu, les sprites et la mise en page responsive */
