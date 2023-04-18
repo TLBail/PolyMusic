@@ -211,9 +211,40 @@ figcaption a {
   width: 150px;
 }
 
-.pop-rock-artist .existence-period,
+.pop-rock-artist .existence-period {
+  display: none;
+}
+
 .pop-rock-artist .description {
   display: none;
+  animation: openText 0.5s ease-in-out normal;
+}
+
+.pop-rock-artist:hover .description {
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  width: 150px;
+}
+
+.pop-rock-artist:hover .existence-period {
+  display: block;
+  width: 150px;
+
+
+}
+
+
+@keyframes openText {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+
+  to {
+    opacity: 1;
+    height: 100px;
+  }
 }
 
 .popRockTableElement {
@@ -294,12 +325,12 @@ table th {
   background-position: 0 -70px;
 }
 
-.facebookIcon {
+.facebookIcon:hover {
   width: 14px;
   height: 14px;
   background-image: url(images/social-header.png);
   display: inline-block;
-  background-position: 0 -70px;
+  background-position: 0 -56px;
 }
 
 .twitterIcon {
@@ -307,15 +338,34 @@ table th {
   height: 14px;
   background-image: url(images/social-header.png);
   display: inline-block;
-  background-position: 0 -30px;
+  background-position: 0 -28px;
 }
+
+.twitterIcon:hover {
+  width: 14px;
+  height: 14px;
+  background-image: url(images/social-header.png);
+  display: inline-block;
+  background-position: 0 -42px;
+}
+
+
 
 .tumblerIcon {
   width: 14px;
   height: 14px;
   background-image: url(images/social-header.png);
   display: inline-block;
-  background-position: 0 -125px;
+  background-position: 0 -126px;
+}
+
+
+.tumblerIcon:hover {
+  width: 14px;
+  height: 14px;
+  background-image: url(images/social-header.png);
+  display: inline-block;
+  background-position: 0 -98px;
 }
 
 .googlePlusIcon {
@@ -323,16 +373,34 @@ table th {
   height: 14px;
   background-image: url(images/social-header.png);
   display: inline-block;
-  background-position: 0 -110px;
+  background-position: 0 -112px;
 }
+
+.googlePlusIcon:hover {
+  width: 14px;
+  height: 14px;
+  background-image: url(images/social-header.png);
+  display: inline-block;
+  background-position: 0 -84px;
+}
+
 
 .rssIcon {
   width: 14px;
   height: 14px;
   background-image: url(images/social-header.png);
   display: inline-block;
-  background-position: 0 -15px;
+  background-position: 0 -14px;
 }
+
+.rssIcon:hover {
+  width: 14px;
+  height: 14px;
+  background-image: url(images/social-header.png);
+  display: inline-block;
+  background-position: 0 0px;
+}
+
 
 /* Mise en forme CSS additionnelle */
 
